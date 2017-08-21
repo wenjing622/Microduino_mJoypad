@@ -8,7 +8,7 @@
    2017-08-10  by CWJ
 ****************************************/
 
-#include "Microduino_mJoypad.h"
+#include <Microduino_mJoypad.h>
 
 bool button_a, button_b, button_u, button_d, button_l, button_r;
 

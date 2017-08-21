@@ -8,7 +8,7 @@
 #include "Microduino_mJoypad.h"
 
 mJoyPad::mJoyPad() {
-
+ 
 }
 
 bool mJoyPad::begin(void) {
@@ -48,7 +48,7 @@ uint8_t mJoyPad::getIN(uint8_t _num) {
   }
 }
 
-uint8_t mJoyPad::getJoysticX(void) {
+uint8_t mJoyPad::getJoystickX(void) {
   return requstData(I2C_R_8_JOY_X);
 }
 

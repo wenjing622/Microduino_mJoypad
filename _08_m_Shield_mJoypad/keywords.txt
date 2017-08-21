@@ -14,8 +14,8 @@ begin	KEYWORD2
 getIN	KEYWORD2
 getLight	KEYWORD2
 getMic	KEYWORD2
-getJoysticX	KEYWORD2
-getJoysticY	KEYWORD2
+getJoystickX	KEYWORD2
+getJoystickY	KEYWORD2
 getButtonA	KEYWORD2
 getButtonB	KEYWORD2
 getButtonUp	KEYWORD2

@@ -16,7 +16,7 @@
    2017-08-10  by CWJ
 ****************************************/
 
-#include "Microduino_mJoypad.h"
+#include <Microduino_mJoypad.h>
 
 uint8_t adcData[7];
 bool button_a, button_b, button_u, button_d, button_l, button_r;
@@ -32,8 +32,8 @@ void loop() {
   adcData[0] = mJoypad.getIN(0);     
   adcData[1] = mJoypad.getIN(1);
   adcData[2] = mJoypad.getIN(2);
-  adcData[3] = mJoypad.getJoysticX();
-  adcData[4] = mJoypad.getJoysticY();
+  adcData[3] = mJoypad.getJoystickX();
+  adcData[4] = mJoypad.getJoystickY();
   adcData[5] = mJoypad.getLight();
   adcData[6] = mJoypad.getMic();
 

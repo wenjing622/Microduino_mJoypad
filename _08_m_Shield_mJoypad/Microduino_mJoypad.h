@@ -75,8 +75,8 @@ class mJoyPad {
     static uint8_t getIN(uint8_t _num);
     static uint8_t getLight(void);
     static uint8_t getMic(void);
-    static uint8_t getJoysticX(void);
-    static uint8_t getJoysticY(void);
+    static uint8_t getJoystickX(void);
+    static uint8_t getJoystickY(void);
     static bool getButtonA(void);
     static bool getButtonB(void);
     static bool getButtonUp(void);

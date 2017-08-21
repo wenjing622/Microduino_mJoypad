@@ -12,7 +12,7 @@
    2017-08-10  by CWJ
 ****************************************/
 
-#include "Microduino_mJoypad.h"
+#include <Microduino_mJoypad.h>
 
 void setup() {
   Serial.begin(9600);
