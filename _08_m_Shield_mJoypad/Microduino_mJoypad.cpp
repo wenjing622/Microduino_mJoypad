@@ -52,7 +52,7 @@ uint8_t mJoyPad::getJoystickX(void) {
   return requstData(I2C_R_8_JOY_X);
 }
 
-uint8_t mJoyPad::getJoysticY(void) {
+uint8_t mJoyPad::getJoystickY(void) {
   return requstData(I2C_R_8_JOY_Y);
 }
 
